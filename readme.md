@@ -2,7 +2,7 @@
   
 # GodotOSOS
 ### What is it?
-Its basically a small operating system build around the godot project GodotOS by popcar2 based on Arch Linux. (made with archiso)
+Its basically a small operating system build around the godot project [GodotOS by popcar2](https://github.com/popcar2/GodotOS) and based on Arch Linux. (made with archiso)
 
 ### How to build
 Arch Wiki: https://wiki.archlinux.org/title/archiso  
@@ -19,10 +19,13 @@ sudo mkarchiso -v -w ./workdir ./sauce/
 # lose data (e.g. an external device mounted at /run/media/user/label 
 # gets bound within work/x86_64/airootfs/run/media/user/label during 
 # the build process).
-rm -rf workdir
+sudo rm -rf workdir
 ```
   
 ### ABOUT
 It runs in live boot, so you dont have to install.  
 Dislikes Ventoy for some reason.  
 Its just a fun think I put together in a few hours, not ment for actual use.  
+
+# Credit
+popcar2 - [GodotOS](https://github.com/popcar2/GodotOS)
