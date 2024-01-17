@@ -30,4 +30,4 @@ Its just a fun think I put together in a few hours, not ment for actual use.
 # Credit
 popcar2 - [GodotOS](https://github.com/popcar2/GodotOS)
 
-### GodotOS is not affiliated with Godot Engine developers or the Godot Foundation.
+### GodotOSOS is not affiliated with Godot Engine developers or the Godot Foundation.
